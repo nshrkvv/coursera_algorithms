@@ -16,5 +16,5 @@ class Solution:
         for i in range(len(board)):
             for j in range(len(board[0])):
                 if dfs(i, j, 0):
-                    return Truedialogue
+                    return True
         return False
